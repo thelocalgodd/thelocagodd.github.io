@@ -4,7 +4,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-header {
+header, p {
     text-align: center;
 }
 
@@ -15,4 +15,8 @@ h1 {
 
 a {
     text-decoration: none;
+}
+
+.mainp {
+    border: 5px black;
 }
