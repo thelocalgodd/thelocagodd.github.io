@@ -22,3 +22,8 @@ a {
     width: 20px;
     border: 1px solid black;
 }
+
+footer {
+    text-align: center;
+    padding-top: 70%;
+}
