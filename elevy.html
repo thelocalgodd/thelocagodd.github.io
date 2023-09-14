@@ -15,7 +15,8 @@
         <br>
         <h4><u>E-LEVY CALCULATOR</u></h4>
 
-        Amount being sent: <input id="amount" type="text" inputmode="numeric">
+        <label for="amount">AMOUNT<span aria-label="required"></span></label> 
+        <input id="amount" type="text" inputmode="numeric" required>
         <button onclick="calculate()">Calculate</button>
         <p id="notenough"></p>
         <p id="elevy"></p>
