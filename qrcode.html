@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/assets/1f47d.svg" type="image/x-icon">
+    <title>KPEMLIE VINCENT KWAKU | TLG</title>
+    <script>
+        function calculate() {
+            const amount = Number(document.getElementById("amount").value);
+    
+            const elevy = 0.01 * amount;
+            const elevy_amount = elevy + amount;
+    
+            document.getElementById("elevy").innerHTML = "E-LEVY: " + elevy;
+            document.getElementById("elevy_amount").innerHTML = "TOTAL COST: " + elevy_amount;
+            }
+    </script>
+</head>
+<body>
+    <div class="body_div">
+        <br>
+        <h2>KPEMLIE VINCENT KWAKU [TLG]</h2> 
+        <br>
+        <h4><u>QR-CODE GENERATOR</u></h4>
+        
+        <div class="container">
+            <p>Enter your text or URL</p>
+            <input type= "text" placeholder="Text or URL" id="qrText"> 
+            
+            <div id="imgBox">
+                <img src="" id="qrimg">
+            </div>
+        
+            <button onclick="generateQRCode()">Generate QR Code</button>
+
+        </div>
+        
+            <script>
+        
+            let imgBox = document.getElementById("imgBox");
+            let qrimg = document.getElementById("qrimg");
+            let qrText = document.getElementById("qrText");
+        
+        
+            function generateQRCode(){
+                if(qrText.value.length > 0){
+                    qrimg.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + qrText.value;
+                    imgBox.classList.add("show-img");
+                }else{
+                   qrText.classList.add('error');
+                   setTimeout(()=>{
+                        qrText.classList.remove('error');
+                   },1000);
+                }    
+            }
+             
+        
+        </script>
+        
+        
+
+    </div>
+</body>
+</html>

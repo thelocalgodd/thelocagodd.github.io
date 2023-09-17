@@ -6,7 +6,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/assets/1f47d.svg" type="image/x-icon">
     <title>KPEMLIE VINCENT KWAKU | TLG</title>
-    <script src="script.js"></script>
+    <script>
+        function calculate() {
+            const amount = Number(document.getElementById("amount").value);
+    
+            const elevy = 0.01 * amount;
+            const elevy_amount = elevy + amount;
+    
+            document.getElementById("elevy").innerHTML = "E-LEVY: " + elevy;
+            document.getElementById("elevy_amount").innerHTML = "TOTAL COST: " + elevy_amount;
+            }
+    </script>
 </head>
 <body>
     <div class="body_div">
