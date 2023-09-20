@@ -9,15 +9,17 @@
 </head>
 <body>
     <div class="body_div">
+        <button id="dark" onclick="darkmode()">dark/light</button>
         <br>
         <h2>KPEMLIE VINCENT KWAKU [tlg]</h2>
         <h4>Welcome to My Site</h4>
+        
         <img class="pfp" src="/assets/Tōdō Aoi.jpeg" alt="pfp" title="KPEMLIE VINCENT KWAKU">
 
         <h2>BIO</h2>
         <p class="bio">
             I am a Computer Science student at <a href="https://knust.edu.gh" target="_blank">KNUST</a>, Ghana. <br>
-            I like to do stuff. Currently I am learning the basics of programming. <br>
+            Currently, I am learning the basics of programming. <br>
             This is my little blog / personal website. <br> <br>
             skr. 
         </p>
@@ -47,5 +49,12 @@
         </p>
         <br>
     </div>
+
+    <script>
+        function darkmode() {
+            let element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
 </body>
 </html>

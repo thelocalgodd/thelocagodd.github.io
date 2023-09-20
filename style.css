@@ -1,38 +1,51 @@
 /*everything*/
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body {
     background-color:lightblue;
-    font-family: 'Courier New', Courier, monospace;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+
+        .body_div {
+            background-color: darkslateblue;
+            color: white;
+        }
 }
 
 .body_div {
     text-align: center;
     box-sizing: border-box;
     height: auto;
-    width: 90%;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 80%;
+    padding-left: 1px;
+    padding-right: 1px;
     background-color: aliceblue;
     border-radius: 10px;
     margin: auto;
 }
 
-a {
+a:link {
+    color: blue;
     text-decoration: none;
 }
 
-#btn {
-    border: 0;
-    border-radius: 5px;
-    background-color: aquamarine;
-    width: 30%;
-    height: 20%;
+a:visited {
+    color: indianred;
+    text-decoration: none;
 }
+
 
 /*index | homepage*/
 .pfp {
     height: 30%;
     width: 30%;
-    border: 2px white solid;
+    border: 2px lightblue solid;
     border-radius: 15%
 }
 
@@ -40,4 +53,15 @@ a {
     height: 20px;
     width: 20px;
     border: 1px solid black;
+}
+
+button {
+        text-align: right;
+        border: 0;
+        border-radius: 5px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        height: 20px;
+        background-color: black;
+        color: white;
 }
