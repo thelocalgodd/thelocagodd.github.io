@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/assets/1f47d.svg" type="image/x-icon">
     <title>KPEMLIE VINCENT KWAKU | TLG</title>
+    
     <script>
         function calculate() {
             const amount = Number(document.getElementById("amount").value);
@@ -17,6 +18,7 @@
             document.getElementById("elevy_amount").innerHTML = "TOTAL COST: " + elevy_amount;
             }
     </script>
+
 </head>
 <body>
     <div class="body_div">
@@ -25,20 +27,13 @@
         <br>
         <h4><u>E-LEVY CALCULATOR</u></h4>
 
-        <label for="amount">AMOUNT<span aria-label="required"></span></label> 
-        <input id="amount" type="text" inputmode="numeric" required>
-        <button onclick="calculate()">Calculate</button>
+        <label for="amount">AMOUNT<span aria-label="required"></span></label><br> 
+        <input id="txt" type="text" inputmode="numeric" required><br>
+        <button id="btn" onclick="calculate()">Calculate</button>
         <p id="notenough"></p>
         <p id="elevy"></p>
         <p id="elevy_amount"></p>
-
-        
-        <footer>
-        <p>
-            elevy is calculated on amounts <br> 
-            sent over 100GHC in a day.
-        </p>
-        </footer>
+        <br>
     </div>
 </body>
 </html>

@@ -27,22 +27,21 @@
         
         <div class="container">
             <p>Enter your text or URL</p>
-            <input type= "text" placeholder="Text or URL" id="qrText"> 
+            <input id="txt" type="text" placeholder="Text or URL" id="qrText"> 
             
             <div id="imgBox">
                 <img src="" id="qrimg">
             </div>
         
-            <button onclick="generateQRCode()">Generate QR Code</button>
+            <button id="btn" onclick="generateQRCode()">Generate QR Code</button>
 
         </div>
+        <br>
         
             <script>
-        
             let imgBox = document.getElementById("imgBox");
             let qrimg = document.getElementById("qrimg");
             let qrText = document.getElementById("qrText");
-        
         
             function generateQRCode(){
                 if(qrText.value.length > 0){
@@ -55,12 +54,7 @@
                    },1000);
                 }    
             }
-             
-        
-        </script>
-        
-        
-
+        </script>    
     </div>
 </body>
 </html>
