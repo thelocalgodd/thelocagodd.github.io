@@ -1,5 +1,3 @@
-/*everything*/
-
 * {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -11,12 +9,35 @@ body {
 .dark-mode {
     background-color: black;
     color: white;
-
         .body_div {
             background-color: darkslateblue;
             color: white;
         }
+        #dark {
+            background-color: black;
+            color: white;
+    }
+        .pfp {
+            border: 2px black solid;
+        }
 }
+/*
+#boxx {
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    animation-name: boxx;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes boxx {
+    from {background-color: lightblue;}
+    to {background-color: aqua;}
+}*/
 
 .body_div {
     text-align: center;
@@ -55,13 +76,13 @@ a:visited {
     border: 1px solid black;
 }
 
-button {
+#dark {
         text-align: right;
         border: 0;
         border-radius: 5px;
         border-top-right-radius: 0;
         border-top-left-radius: 0;
         height: 20px;
-        background-color: black;
-        color: white;
+        background-color: lightblue;
+        color: black;
 }
