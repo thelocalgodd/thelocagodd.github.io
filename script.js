@@ -13,3 +13,6 @@ function darkmode() {
     isDarkMode = !isDarkMode;
 }
 
+
+    const time = new Date();
+    document.getElementById('timep').innerHTML = time.getTime()
