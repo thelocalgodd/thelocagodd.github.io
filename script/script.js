@@ -25,4 +25,5 @@ if (hours >= 0 && hours < 12) {
 } else {
     document.getElementById('greeting').innerHTML = `Good Evening, Welcome to my Site.`
     console.log('Good Evening')
+    darkmode()
 }
