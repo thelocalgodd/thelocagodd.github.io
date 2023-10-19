@@ -18,7 +18,7 @@ body {
     border-radius: 10px;
     margin: auto;
     box-shadow: 10px 10px teal;
-    font-size: 150%;
+    font-size: 120%;
 }
 
 .bio {
@@ -27,6 +27,20 @@ body {
     margin: auto 40px;
     border-left: 1px black solid;
     padding: 10px;
+    transition: background-color 1s ease-in 10ms;
+}
+
+.bio:hover {
+    background-color: lightblue;
+}
+
+.p {
+    border-left: 5px solid black;
+    box-sizing: border-box;
+    width: fit-content;
+    margin: auto;
+    background-color: lightblue;
+    
 }
 
 a:link {
@@ -94,9 +108,14 @@ a:hover {
 
         .bio {
             box-sizing: border-box;
-            background-color: rgb(0, 0, 100);
+            background-color: rgb(1, 1, 53);
             margin: auto 40px;
             border-left: 1px blue solid;
+            cursor: default;
+        }
+
+        .bio:hover {
+            background-color: rgb(0, 0, 100);
         }
 
         #dark {
@@ -131,13 +150,4 @@ a:hover {
             background-color: rgb(1, 1, 53);
             box-shadow: 5px 5px rgb(0, 0, 100);
         }
-    }
-
-    .p {
-        border-left: 5px solid black;
-        box-sizing: border-box;
-        width: fit-content;
-        margin: auto;
-        background-color: lightblue;
-        
     }
