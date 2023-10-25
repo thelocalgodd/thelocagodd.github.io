@@ -1,5 +1,6 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    transition: all 100ms;
 }
 
 body {
@@ -23,24 +24,10 @@ body {
 
 .bio {
     box-sizing: border-box;
-    background-color: aliceblue;
+    background-color: lightblue;
     margin: auto 40px;
     border-left: 1px black solid;
     padding: 10px;
-    transition: background-color 1s ease-in 10ms;
-}
-
-.bio:hover {
-    background-color: lightblue;
-}
-
-.p {
-    border-left: 5px solid black;
-    box-sizing: border-box;
-    width: fit-content;
-    margin: auto;
-    background-color: lightblue;
-    
 }
 
 a:link {
