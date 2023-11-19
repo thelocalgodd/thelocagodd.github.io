@@ -1,0 +1,259 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  padding: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+#navigation {
+  background-color: aliceblue;
+  position: fixed;
+  width: 95%;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+#navigation #logo {
+  padding-left: 30px;
+  list-style: none;
+}
+#navigation #nav {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: auto;
+  align-items: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+#navigation #nav #header {
+  border: none;
+}
+#navigation #nav #header:hover {
+  border: none;
+  background-color: inherit;
+}
+#navigation #nav li {
+  margin-left: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+#navigation #nav li:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.3s;
+}
+#navigation #nav li:hover a {
+  text-decoration: none;
+  color: white;
+}
+#navigation #nav li:hover a:visited {
+  color: white;
+}
+#navigation #nav li a {
+  text-decoration: none;
+  color: black;
+}
+#navigation #nav li a:visited {
+  color: black;
+}
+
+#home {
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
+#home button {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 10px;
+  border: none;
+  background-color: lightgreen;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+#home button a {
+  text-decoration: none;
+  color: black;
+}
+#home button a:visited {
+  color: black;
+}
+#home button:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.3s;
+}
+#home button:hover a {
+  text-decoration: none;
+  color: white;
+}
+#home button:hover a:visited {
+  color: white;
+}
+#home #home-content {
+  margin-left: 50px;
+}
+#home h1 {
+  font-size: 100px;
+  color: black;
+}
+#home h1 span {
+  color: white;
+}
+#home h2 {
+  font-size: 50px;
+  color: black;
+}
+#home h2 span {
+  color: aliceblue;
+}
+
+#about {
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
+#about #about-content {
+  margin-left: 50px;
+}
+#about h1 {
+  font-size: 100px;
+  color: black;
+}
+#about h1 span {
+  color: white;
+}
+#about p {
+  font-size: 50px;
+  color: black;
+  display: flex;
+}
+
+#skills {
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
+#skills p ul {
+  list-style-type: none;
+}
+#skills p ul svg {
+  margin: 10px;
+}
+#skills #skills-content {
+  margin-left: 50px;
+}
+#skills h1 {
+  font-size: 100px;
+  color: black;
+}
+#skills p {
+  font-size: 50px;
+  color: black;
+}
+
+#contact {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
+#contact #contact-content {
+  margin-left: 50px;
+}
+#contact h1 {
+  font-size: 100px;
+  color: black;
+}
+#contact h1 span {
+  color: white;
+}
+#contact p {
+  font-size: 50px;
+  color: black;
+}
+
+#projects {
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+#projects ul {
+  list-style: none;
+}
+#projects ul li a {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 50px;
+}
+#projects ul li a:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.3s;
+}
+#projects ul li a:hover a {
+  text-decoration: none;
+  color: white;
+}
+#projects ul li a:hover a:visited {
+  color: white;
+}
+#projects ul li a {
+  text-decoration: none;
+  color: black;
+}
+#projects #projects-content {
+  margin-left: 50px;
+}
+#projects h1 {
+  font-size: 100px;
+  color: black;
+}
+#projects a {
+  font-size: 60px;
+}
+#projects p {
+  font-size: 30px;
+  color: black;
+  padding: 15px;
+}/*# sourceMappingURL=index.css.map */
