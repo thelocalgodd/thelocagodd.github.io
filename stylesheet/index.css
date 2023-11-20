@@ -25,7 +25,7 @@ body {
 }
 
 #navigation {
-  background-color: aliceblue;
+  background-color: #8c8c8c;
   position: fixed;
   width: 95%;
   border-bottom-right-radius: 10px;
@@ -34,8 +34,8 @@ body {
   flex-direction: row;
   list-style: none;
   padding: 10px;
-  border-bottom: 1px solid white;
-  border-right: 1px solid white;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
 }
 #navigation #logo {
   padding-left: 30px;
@@ -64,12 +64,13 @@ body {
   box-sizing: border-box;
   border-radius: 20px;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 #navigation #nav li:hover {
   background-color: black;
   color: white;
   transition: all 0.3s;
+  border: none;
 }
 #navigation #nav li:hover a {
   text-decoration: none;
@@ -87,11 +88,11 @@ body {
 }
 
 #home {
-  background-color: lightgreen;
+  background-color: #353535;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 70vh;
+  height: 80vh;
 }
 #home button {
   height: 50px;
@@ -100,7 +101,7 @@ body {
   border-radius: 50px;
   padding: 10px;
   border: none;
-  background-color: lightgreen;
+  background-color: #8c8c8c;
   border: 1px solid black;
   margin-top: 50px;
 }
@@ -142,7 +143,7 @@ body {
 }
 
 #about {
-  background-color: greenyellow;
+  background-color: #464646;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -165,7 +166,7 @@ body {
 }
 
 #skills {
-  background-color: lightcoral;
+  background-color: #525252;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -190,7 +191,7 @@ body {
 }
 
 #contact {
-  background-color: lightblue;
+  background-color: #6b6b6b;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -212,7 +213,7 @@ body {
 }
 
 #projects {
-  background-color: lightgreen;
+  background-color: #6b6b6b;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -222,7 +223,7 @@ body {
   list-style: none;
 }
 #projects ul li a {
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 10px;
   border-radius: 50px;
 }
