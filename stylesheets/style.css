@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&family=Space+Grotesk&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -86,6 +87,10 @@
   align-items: center;
 }
 
+.github-icon {
+  margin-top: 30px;
+}
+
 .dark-mode {
   background-color: black;
   color: white;
@@ -99,6 +104,75 @@
 }
 .dark-mode a:hover {
   color: red;
+}
+
+@media screen and (max-width: 900px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    height: 100%;
+    margin-top: 30px;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    user-select: none;
+  }
+  #navbar #nav {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  #navbar #nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #main {
+    width: 350px;
+    font-size: 20px;
+    border: none;
+  }
+  #main #main-text {
+    padding: 10px 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #main #main-text #bold-name {
+    font-weight: 700;
+  }
+  #main #main-text #quote-auth {
+    font-style: italic;
+    text-align: end;
+  }
+  #main #main-text #resume {
+    font-size: 1.2rem;
+  }
+  #side {
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    user-select: none;
+  }
+  #side .github-icon {
+    margin-top: 10px;
+  }
+  #footer {
+    visibility: hidden;
+  }
+  .dark-mode #main {
+    border: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
