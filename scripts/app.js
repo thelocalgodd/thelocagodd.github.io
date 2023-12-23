@@ -16,8 +16,10 @@ const time = () => {
   const date = new Date();
   const hours = date.getHours();
 
-  if (hours >= 6 && hours <= 18) {
+  if (hours >= 0 && hours < 12) {
     document.title = "[TLG] - Good Morning";
+  } else if (hours >= 12 && hours < 18) {
+    document.title = "[TLG] - Good Afternoon";
   } else {
     document.title = "[TLG] - Good Evening";
     darkMode();
