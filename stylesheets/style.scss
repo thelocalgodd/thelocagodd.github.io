@@ -129,8 +129,36 @@ $single-day: 'Single Day', cursive;
     }
 }
 
+@media screen and (max-width: 1300px) {
+    
+    #container {
+        max-width: 900px;
+        height: 700px;
+    }
 
-@media screen and (max-width: 900px) {
+    #main {
+        width: 800px;
+        font-size: 20px;
+
+        #main-text {
+            padding: 0 100px;
+        }
+    }
+
+    #side {
+        font-size: 15px;
+    }
+
+    .dark-mode {
+        #main {
+            border: 1px solid white;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 700px) {
 
     #container {
         display: flex;
