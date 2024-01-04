@@ -9,6 +9,49 @@
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👾</text></svg>"
     />
 
+    <style>
+      #main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      form {
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+      }
+
+      input {
+        display: flex;
+        border: 1px solid black;
+        justify-content: center;
+        padding-left: 5px;
+        width: 250px;
+        height: 25px;
+        margin: 5px;
+        outline: none;
+      }
+
+      textarea {
+        width: 250px;
+        margin: auto;
+        border: 1px solid black;
+        margin: 5px;
+        outline: none;
+        padding-left: 5px;
+      }
+
+      button {
+        margin: 5px;
+        padding: 5px;
+        border: none;
+        background-color: rgb(250, 143, 143);
+        outline: none;
+        cursor: pointer;
+      }
+    </style>
     <title>[TLG]</title>
   </head>
   <body>
@@ -24,24 +67,50 @@
             <li id="projects"><a href="projects.html">projects</a></li>
             <li id="skills"><a href="skills.html">skills</a></li>
             <li id="contact">
-              <span style="background-color: rgb(250, 143, 143)"
-                ><a href="contact.html">contact</a></span
-              >
+              <a style="color: rgb(250, 143, 143)" href="contact.html">
+                contact
+              </a>
             </li>
           </ul>
         </div>
         <div id="main">
-          <p id="main-text">
-            <span id="bold-name">You can reach me via:</span> <br />
-            <a href="https://linkedin.com/in/vkkpemlie" target="_blank"
-              >LinkedIn</a
+          <div id="left-box">
+            <p id="main-text">
+              <span id="bold-name">You can reach me via:</span> <br />
+              <a href="https://linkedin.com/in/vkkpemlie" target="_blank"
+                >LinkedIn</a
+              >
+              <a href="https://x.com/dzidula_1" target="_blank">Twitter (X)</a>
+              <a href="mailto:splashvincentk@outlook.com" target="_blank"
+                >Email</a
+              >
+              <a href="https://github.com/thelocalgodd" target="_blank"
+                >GitHub</a
+              >
+            </p>
+          </div>
+          <div id="right-box">
+            <p style="text-align: center">Contact Form</p>
+            <form
+              action="https://formsubmit.co/splashvincentk@gmail.com"
+              method="POST"
             >
-            <a href="https://x.com/dzidula_1" target="_blank">Twitter (X)</a>
-            <a href="mailto:splashvincentk@outlook.com" target="_blank"
-              >Email</a
-            >
-            <a href="https://github.com/thelocalgodd" target="_blank">GitHub</a>
-          </p>
+              <input type="text" name="name" placeholder="Full Name" required />
+              <input type="email" name="email" placeholder="Email" required />
+              <textarea
+                name="message"
+                cols="25"
+                rows="10"
+                placeholder="Leave a message..."
+              ></textarea>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://thelocalgodd.github.io/pages/contact.html"
+              />
+              <button type="submit">Send</button>
+            </form>
+          </div>
         </div>
         <div id="side">
           <p id="button">dark</p>
