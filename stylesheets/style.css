@@ -66,8 +66,11 @@
 #main #main-text #bold-name {
   font-weight: 700;
 }
+#main #main-text .quote-body {
+  text-align: justify;
+  text-justify: inter-word;
+}
 #main #main-text #quote-auth {
-  font-style: italic;
   text-align: end;
 }
 #main #main-text #resume {

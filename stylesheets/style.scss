@@ -7,7 +7,6 @@ $single-day: 'Single Day', cursive;
 * {
     margin: 0;
     padding: 0;
-
     list-style: none;
     
     a {
@@ -61,7 +60,6 @@ $single-day: 'Single Day', cursive;
     }
 }
 
-
 #main {
     border: 1px solid black;
     width: 1200px;
@@ -72,24 +70,25 @@ $single-day: 'Single Day', cursive;
         height: 100%;
         display: flex;
         flex-direction: column;
-        
         justify-content: center;
         
-
         #bold-name {
             font-weight: 700;
         }
 
+        .quote-body {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
         #quote-auth {
-            font-style: italic;
             text-align: end;
         }
 
         #resume {
             font-size: 1.2rem;
         }
-    }
-    
+    }  
 }
 
 #side {
@@ -109,7 +108,6 @@ $single-day: 'Single Day', cursive;
 .github-icon {
     margin-top: 30px;
 }
-
 
 .dark-mode {
     background-color: black;
@@ -154,7 +152,6 @@ $single-day: 'Single Day', cursive;
             border: 1px solid white;
         }
     }
-
 }
 
 
