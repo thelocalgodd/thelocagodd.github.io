@@ -189,6 +189,34 @@ $single-day: 'Single Day', cursive;
         }
     }
 
+    .main-contact {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+
+        #left-box {
+            width: 150px;
+            margin: auto;
+
+            #main-text {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+
+            #bold-name {
+                font-weight: 600;
+            }
+        }
+
+        #right-box {
+            margin: auto;
+            margin-top: 30px;
+            padding-top: 10px;
+            border-top: 2px solid black;
+        }
+    }
+
     #main {
         width: 350px;
         font-size: 20px;

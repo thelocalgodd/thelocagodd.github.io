@@ -157,6 +157,29 @@
     justify-content: center;
     align-items: center;
   }
+  .main-contact {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-contact #left-box {
+    width: 150px;
+    margin: auto;
+  }
+  .main-contact #left-box #main-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-contact #left-box #bold-name {
+    font-weight: 600;
+  }
+  .main-contact #right-box {
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 2px solid black;
+  }
   #main {
     width: 350px;
     font-size: 20px;
