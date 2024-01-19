@@ -161,6 +161,8 @@
     width: 350px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .main-contact #left-box {
     width: 150px;

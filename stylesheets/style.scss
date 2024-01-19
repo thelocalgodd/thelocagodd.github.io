@@ -193,6 +193,8 @@ $single-day: 'Single Day', cursive;
         width: 350px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         #left-box {
             width: 150px;
