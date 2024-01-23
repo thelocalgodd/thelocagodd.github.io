@@ -2,14 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap');
 
 $space-grotesk: 'Space Grotesk', sans-serif;
-$ibm-plex: 'IBM Plex Mono', monospace;
-$single-day: 'Single Day', cursive;
 
 * {
     margin: 0;
     padding: 0;
     list-style: none;
-    
+
     a {
         text-decoration: none;
         color: black;
@@ -46,7 +44,7 @@ $single-day: 'Single Day', cursive;
     #nav {
         display: flex;
         flex-direction: column;
-        justify-content: center;;
+        justify-content: center;
         align-items: center;
         height: 90%;
         font-weight: 700;
@@ -72,14 +70,9 @@ $single-day: 'Single Day', cursive;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+
         #bold-name {
             font-weight: 700;
-        }
-
-        .quote-body {
-            // text-align: justify;
-            // text-justify: inter-word;
         }
 
         #quote-auth {
@@ -89,7 +82,7 @@ $single-day: 'Single Day', cursive;
         #resume {
             font-size: 1.2rem;
         }
-    }  
+    }
 }
 
 #side {
@@ -99,10 +92,10 @@ $single-day: 'Single Day', cursive;
     cursor: pointer;
 
     p {
-            padding: 0 0px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        padding: 0 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -129,7 +122,7 @@ $single-day: 'Single Day', cursive;
 }
 
 @media screen and (max-width: 1300px) {
-    
+
     #container {
         max-width: 900px;
         height: 700px;
@@ -230,7 +223,7 @@ $single-day: 'Single Day', cursive;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            
+
             #bold-name {
                 font-weight: 700;
             }
@@ -243,7 +236,7 @@ $single-day: 'Single Day', cursive;
             #resume {
                 font-size: 1.2rem;
             }
-        } 
+        }
     }
 
     #side {
