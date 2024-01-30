@@ -30,5 +30,5 @@ document.addEventListener("DOMContentLoaded", time);
 
 document.getElementById("title-tlg").onclick = () => {
   // open a file in files directory
-  window.open("../files/[TLG].png", "_blank");
+  window.open("../files/tlg.png", "_blank");
 };
