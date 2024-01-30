@@ -27,3 +27,8 @@ const time = () => {
 };
 
 document.addEventListener("DOMContentLoaded", time);
+
+document.getElementById("title-tlg").ondblclick = () => {
+  // open a file in files directory
+  window.open("../files/[TLG].png", "_blank");
+};
