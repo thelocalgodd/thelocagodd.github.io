@@ -24,6 +24,11 @@ const time = () => {
     document.title = "[TLG] - Good Evening";
     darkMode();
   }
+
+  // get Year to change the footer year
+  const year = date.getFullYear();
+
+  document.getElementById("title-tlg").innerHTML = `@ ${year}`;
 };
 
 document.addEventListener("DOMContentLoaded", time);
